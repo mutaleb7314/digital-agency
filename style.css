@@ -63,19 +63,18 @@ header {
     font-size: 90px;
     padding: 20px;
 }
-
-.container .box button {
-    padding: 5px 20px;
-    margin-left: 30px;
-    background-color: darkblue;
-    border-radius: 20px;
-    color: white;
-    border: 1px solid white;
+.box button {
+    margin: 0 0 0 20px;
 }
 
-.container .box button:hover {
-    background-color: white;
-    color: black;
+.learn-more-btn {
+    padding: 9px 42px;
+    border-radius: 20px;
+}
+
+.learn-more-btn:hover {
+    color: white;
+    background: darkblue;
 }
 
 .research-strategy-design {
@@ -239,16 +238,6 @@ header {
     padding-top: 200px;
 }
 
-.btn button {
-    padding: 9px 42px;
-    border-radius: 20px;
-}
-
-.btn button:hover {
-    background-color: darkblue;
-    color: #fff;
-}
-
 .block-five {
     position: relative;
     z-index: 1;
@@ -314,12 +303,43 @@ header {
 }
 
 .content-box button {
-    margin: 60px 0 0 20px;
-    padding: 9px 42px;
-    border-radius: 20px;
+    margin: 50px 0 0 20px;
 }
 
-.content-box button:hover {
+.block-six {
     background: darkblue;
-    color: white;
+    width: 100%;
+    height: 697px;
+    display: grid;
+    padding: 60px 20px;
+    grid-template-columns: 50% 50%;
 }
+
+.block-six .column-one {
+    background-image: url("images/4.jpg");
+}
+
+.block-six .column-two {
+    padding-left: 20px;
+    color: #fff;
+}
+
+.block-six .column-two h5 {
+    font-size: 20px;
+    padding-top: 40px;
+    font-weight: lighter;
+}
+
+.block-six .column-two h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.block-six .column-two span {
+    color: aquamarine;
+}
+
+.block-six .column-two button {
+    margin: 60px 0 0 0;
+}
+
