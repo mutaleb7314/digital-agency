@@ -248,3 +248,78 @@ header {
     background-color: darkblue;
     color: #fff;
 }
+
+.block-five {
+    position: relative;
+    z-index: 1;
+    background: darkblue;
+    width: 100%;
+    height: 900px;
+}
+
+.half-box {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    background: #e0e6ec;
+    width: 100%;
+    height: 450px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.midle-box {
+    position: absolute;
+    z-index: 3;
+    background: aquamarine;
+    width: 677px;
+    height: 594px;
+    top: 225px;
+    left: 270px;
+}
+
+.block-five img {
+    position: absolute;
+    z-index: 4;
+    width: 803px;
+    height: 581px;
+    top: 50px;
+    left: 30px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px lightblue;
+}
+
+.content-box {
+    position: absolute;
+    z-index: 5;
+    right: 40px;
+    bottom: 130px;
+    background: #fff;
+    width: 596px;
+    height: 458px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px #ccc;
+}
+
+.content-box h2 {
+    font-size: 55px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.content-box p {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.content-box button {
+    margin: 60px 0 0 20px;
+    padding: 9px 42px;
+    border-radius: 20px;
+}
+
+.content-box button:hover {
+    background: darkblue;
+    color: white;
+}
