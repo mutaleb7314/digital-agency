@@ -77,3 +77,35 @@ header {
     background-color: white;
     color: black;
 }
+
+.research-strategy-design {
+    display: flex;
+}
+
+.research {
+    background-color: aquamarine;
+}
+
+.strategy {
+    background-color: darkblue;
+    color: white;
+}
+
+.design {
+    background-color: aquamarine;
+}
+
+.content h4 {
+    font-size: 60px;
+    padding: 40px 0 20px 20px;
+}
+
+.content p {
+    padding: 0px 0 20px 20px;
+}
+
+.content i {
+    font-size: 60px;
+    padding: 0px 0 30px 20px;
+}
+
